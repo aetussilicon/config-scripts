@@ -12,7 +12,7 @@ echo "Instalando yay"
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 
 echo "Instalando pacotes base"
-yay -Sy neovim zsh git curl wget jdk21-openjdk jdk17-openjdk jre8-openjdk flatpak google-chrom-stable visual-studio-code-bin ttf-ms-fonts libreoffice-still-pt-br thunderbird allacrity ttf-cascadia-code nerd-fonts snapd firefox
+yay -Sy neovim zsh git curl wget jdk21-openjdk jdk17-openjdk jre8-openjdk flatpak google-chrom-stable visual-studio-code-bin ttf-ms-fonts libreoffice-still-pt-br thunderbird allacrity ttf-cascadia-code nerd-fonts snapd firefox polybar rofi
 
 echo "Instalando flatpaks"
 
